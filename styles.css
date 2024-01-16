@@ -1,20 +1,19 @@
 
 body {
-    background-color: antiquewhite;
+    height: 433px;
+    background-image: linear-gradient(rgb(120, 245, 103), orange, rgb(97, 97, 252));
 }
 
 #principal {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 200px;
 }
 
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 60px;
-    background-image: linear-gradient(rgb(56, 244, 31), orange, blue);
-    height: 60px;
-    margin-right: 400px ;
-    margin-left: 400px ;
 }
 
 #nav {
