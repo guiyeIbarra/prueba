@@ -1,14 +1,20 @@
-
-body {
-    height: 433px;
+* {
+    margin: 0%;
+}
+main {
     background-image: linear-gradient(rgb(120, 245, 103), orange, rgb(97, 97, 252));
+    height: 70vh;
+}
+
+header {
+    height: 200px;
+    background-color: rgb(120, 245, 103);
 }
 
 #principal {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 200px;
 }
 
 h1 {
@@ -27,5 +33,5 @@ a {
 }
 
 a:hover {
-    color: cornflowerblue;
+    color: rgb(15, 94, 240);
 }
