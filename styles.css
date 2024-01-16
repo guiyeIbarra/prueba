@@ -1,0 +1,32 @@
+
+body {
+    background-color: antiquewhite;
+}
+
+#principal {
+    text-align: center;
+    margin-top: 200px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    background-image: linear-gradient(rgb(56, 244, 31), orange, blue);
+    height: 60px;
+    margin-right: 400px ;
+    margin-left: 400px ;
+}
+
+#nav {
+    list-style-type: none;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
