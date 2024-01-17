@@ -2,13 +2,13 @@
     margin: 0%;
 }
 main {
-    background-image: linear-gradient(rgb(120, 245, 103), orange, rgb(97, 97, 252));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(90, 235, 114));
     height: 70vh;
 }
 
 header {
     height: 200px;
-    background-color: rgb(120, 245, 103);
+    background-color: rgb(255, 255, 255);
 }
 
 #principal {
@@ -24,7 +24,8 @@ h1 {
 
 #nav {
     list-style-type: none;
-    font-size: 25px;
+    font-size: 23px;
+    font-weight: 600;
 }
 
 a {
@@ -33,5 +34,12 @@ a {
 }
 
 a:hover {
-    color: rgb(15, 94, 240);
+    color: rgb(191, 15, 240);
+}
+
+#boton {
+    margin-top: 5%;
+    margin-left: 48%;
+    font-size: 23px;
+    font-weight: 600;
 }
