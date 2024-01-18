@@ -2,7 +2,7 @@
     margin: 0%;
 }
 main {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(90, 235, 114));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(156, 252, 172));
     height: 70vh;
 }
 
@@ -34,12 +34,24 @@ a {
 }
 
 a:hover {
-    color: rgb(191, 15, 240);
+    color: rgb(162, 6, 205);
 }
 
 #boton {
-    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 48%;
     font-size: 23px;
     font-weight: 600;
+}
+
+#acerca {
+    text-align: center;
+    margin-top: 35px;
+}
+
+#perfil {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
 }
