@@ -6,11 +6,11 @@
 
 main {
     background-image: linear-gradient(rgb(255, 255, 255), rgb(26, 243, 246));
-    height: 70vh;
+    height: 56vh;
 }
 
 header {
-    height: 200px;
+    height: 202px;
     background-color: rgb(255, 255, 255);
 }
 
@@ -26,7 +26,7 @@ header {
 h1 {
     font-family: Dancing Script;
     font-size: 80px;
-    margin-top: 70px;
+    margin-top: 80px;
     display: flex;
     justify-content: center;
 }
@@ -39,13 +39,17 @@ h1 {
     justify-content: space-evenly;
 }
 
+.nav {
+    
+}
 a {
     text-decoration: none;
     color: black;
 }
 
 a:hover {
-    color: rgb(242, 141, 9);
+    color: rgb(254, 133, 4);
+    font-size: 24px;
 }
 
 #boton {
@@ -60,4 +64,11 @@ a:hover {
     margin-right: 15%;
     font-family: Dancing Script;
     font-size: 28px;
+}
+
+#contactos {
+    font-size: 21px;
+    line-height: 2;
+    margin-left: 500px;
+    list-style-type: circle;
 }
