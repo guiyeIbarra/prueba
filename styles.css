@@ -1,8 +1,11 @@
+
+
 * {
     margin: 0%;
 }
+
 main {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(156, 252, 172));
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(26, 243, 246));
     height: 70vh;
 }
 
@@ -12,20 +15,28 @@ header {
 }
 
 #principal {
+    margin-left: 95px;
+    margin-top: 55px;
+}
+ 
+#logo {
+    position: absolute;
+
+}
+h1 {
+    font-family: Dancing Script;
+    font-size: 80px;
+    margin-top: 70px;
     display: flex;
     justify-content: center;
-    align-items: center;
-}
-
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
 }
 
 #nav {
     list-style-type: none;
     font-size: 23px;
     font-weight: 600;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 a {
@@ -34,7 +45,7 @@ a {
 }
 
 a:hover {
-    color: rgb(162, 6, 205);
+    color: rgb(242, 141, 9);
 }
 
 #boton {
@@ -44,14 +55,9 @@ a:hover {
     font-weight: 600;
 }
 
-#acerca {
-    text-align: center;
-    margin-top: 35px;
-}
-
 #perfil {
-    margin-left: 30%;
-    margin-right: 30%;
-    font-family: 'Arial Narrow Bold', sans-serif;
-    font-size: 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: Dancing Script;
+    font-size: 28px;
 }
