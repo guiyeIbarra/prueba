@@ -1,17 +1,16 @@
 
-
 * {
     margin: 0%;
 }
 
 main {
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(26, 243, 246));
+    background-color: black;
     height: 56vh;
 }
 
 header {
-    height: 130px;
-    background-color: rgb(255, 255, 255);
+    height: auto;
+    background-image: linear-gradient(rgb(255,255,255), rgb(0,0,0))
 }
 
 #principal {
@@ -20,10 +19,12 @@ header {
  
 #logo {
     position: absolute;
-    
+    color: aliceblue;
 }
+
 h1 {
     font-family: Dancing Script;
+    color: aliceblue;
     font-size: 80px;
     margin-top: 80px;
     display: flex;
@@ -32,6 +33,7 @@ h1 {
 
 #nav {
     list-style-type: none;
+    color: aliceblue;
     font-size: 28px;
     font-weight: 600;
     font-family: Pacifico;
@@ -41,7 +43,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: black;
+    color: aliceblue
 }
 
 a:hover {
@@ -62,6 +64,7 @@ a:hover {
     margin-right: 15%;
     font-family: Dancing Script;
     font-size: 28px;
+    color: aliceblue;
 }
 
 #contactos {
@@ -103,4 +106,21 @@ a:hover {
         font-size: 20px;
         margin-top: 45px;
     }
+}
+
+.login {
+    background-color: black;
+    color: aliceblue;
+}
+.login li {
+    list-style-type: none;
+}
+.login input {
+    width: 270px;
+}
+
+.caja {
+    width: 20%;
+    height: auto;
+    margin: 15% 40%;
 }
